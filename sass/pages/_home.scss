@@ -1,0 +1,66 @@
+.header {
+    height: 90vh;
+    padding-top: 50px;
+    background-image: url('../../img/Photo.png');
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+
+    &__contact {
+        height: 20px;
+        color: $text-white;
+        display: flex;
+        align-items: center;
+        &-text {
+            font-size: 14.4px;
+            letter-spacing: 2px;
+        }
+    }
+    &__lnr {
+        font-size: 28px;
+    }
+    &__body {
+        width: 80%;
+        margin: 150px auto 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__footer {
+        margin-top: 90px;
+        width: 40%;
+        height: 11rem;
+        border: 1px solid rgb(59, 59, 59);
+        border-left: none;
+        color: $text-white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-family: inherit;
+            font-size: $text-font-size;
+        }
+    }
+      
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+
+    &__item {
+        list-style: none;
+        display: inline;
+        &:not(:last-child) {
+            margin-right: 40px;
+        }
+        &-link {
+            text-decoration: none;
+            color: $text-white;
+            font-family: inherit;
+            font-size: 14.4px;
+            font-weight: 800;
+            letter-spacing: 2px;
+        }
+    }
+}
+

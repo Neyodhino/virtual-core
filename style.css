@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1.7rem; }
+
+.heading__primary {
+  color: #fff;
+  font-size: 9.9rem;
+  font-weight: 700;
+  line-height: 118px;
+  font-family: inherit; }
+  .heading__primary-blue {
+    font-size: 9.9rem;
+    font-weight: 700;
+    line-height: 118px;
+    color: #00BBDD;
+    font-family: inherit; }
+
+.heading__secondary {
+  color: #fff;
+  font-size: 14.4px;
+  font-weight: 800;
+  line-height: 30px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-family: inherit; }
+
+.text__transform {
+  transform: rotate(90deg); }
+
+.direction__circle {
+  text-align: center;
+  width: 4.5rem;
+  height: 4.5rem;
+  border: 1px solid #797373;
+  border-radius: 50%;
+  font-size: 3rem;
+  padding-top: 1rem;
+  margin-left: 20px;
+  color: #fff; }
+
+.direction__curve {
+  text-align: center;
+  width: 5rem;
+  height: 2.2rem;
+  border: 1px solid #797373;
+  border-radius: 10px;
+  font-size: 3rem;
+  color: #fff;
+  display: inline-block; }
+
+.header {
+  height: 90vh;
+  padding-top: 50px;
+  background-image: url("../../img/Photo.png");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat; }
+  .header__contact {
+    height: 20px;
+    color: #ffff;
+    display: flex;
+    align-items: center; }
+    .header__contact-text {
+      font-size: 14.4px;
+      letter-spacing: 2px; }
+  .header__lnr {
+    font-size: 28px; }
+  .header__body {
+    width: 80%;
+    margin: 150px auto 0 auto;
+    display: flex;
+    justify-content: space-between; }
+  .header__footer {
+    margin-top: 90px;
+    width: 40%;
+    height: 11rem;
+    border: 1px solid #3b3b3b;
+    border-left: none;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .header__footer p {
+      font-family: inherit;
+      font-size: 18px; }
+
+.navigation {
+  display: flex;
+  justify-content: space-around; }
+  .navigation__item {
+    list-style: none;
+    display: inline; }
+    .navigation__item:not(:last-child) {
+      margin-right: 40px; }
+    .navigation__item-link {
+      text-decoration: none;
+      color: #ffff;
+      font-family: inherit;
+      font-size: 14.4px;
+      font-weight: 800;
+      letter-spacing: 2px; }

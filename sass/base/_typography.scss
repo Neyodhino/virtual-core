@@ -1,0 +1,33 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.7rem;
+}
+
+.heading {
+
+    &__primary {
+        color: #fff;
+        font-size: 9.9rem;
+        font-weight: 700;
+        line-height: 118px;
+        font-family: inherit;
+        &-blue {
+            font-size: 9.9rem;
+            font-weight: 700;
+            line-height: 118px;
+            color: #00BBDD;
+            font-family: inherit;
+        }
+    }
+
+    &__secondary {
+        color: #fff;
+        font-size: 14.4px;
+        font-weight: 800;
+        line-height: 30px;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-family: inherit;
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "vitual_core",
+  "version": "1.0.0",
+  "description": "New website for virtual core",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "author": "Olaniyi Awofisayo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

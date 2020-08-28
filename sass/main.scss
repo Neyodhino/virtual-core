@@ -1,0 +1,16 @@
+//import for a all file in base folder
+@import './base/animation';
+@import './base/base';
+@import './base/typography';
+@import './base/utilities';
+
+//import for all file in abstract folder
+@import './abstracts/functions';
+@import './abstracts/mixins';
+@import './abstracts/variables';
+
+//import for all file in component folder
+// @import './components/buttons';
+
+//import for all file in pages folder
+@import './pages/home'
